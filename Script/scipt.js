@@ -14,8 +14,8 @@ const product = [
     {
         id: 3,
         image: 'image/S23.png',
-        title: 'Samsung Galaxy S23',
-        price: '$35.00',
+        title: 'Galaxy S23 8/128 Go',
+        price: '$799.00',
     },
     {
         id: 4,
@@ -27,7 +27,7 @@ const product = [
         id: 5,
         image: 'image/Ipad2.jpg',
         title: 'Ipad Mini 64 Go WIFI Argent',
-        price: '$43.00',
+        price: '$435.00',
     },
     {
         id: 6,
