@@ -55,24 +55,72 @@
 #home .right img{
     width: 100%;
 }
-footer{
-    width: calc(210.5vh);
+
+/*Footer*/
+
+footer {
+    display: flex;
+    width: 100%;
     background-color: rgb(33,33,33);
-}
-footer h3{
-    color: #28ff;
-    text-align: center;
-    padding: 2px;
-    font-family: 'Helvetica neue';
-    padding-top: 5px;
-}
-footer h3 sub{
-    color: rgb(243, 243, 7);
-}
-.copyright{
-    text-align: center;
-    font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 25px;
     color: white;
-}
+    height: 185px;
+  }
+  
+  .footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+  }
+  
+  .fMenuTitle {
+    font-size: 16px;
+  }
+  
+  .fList {
+    padding: 0;
+    list-style: none;
+    color: white;
+  }
+  
+  .fListItem {
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fInput {
+    padding: 5px;
+  }
+  
+  .fButton {
+    padding: 5px;
+    background-color: #28ff;
+    width: 70px;
+    color: white;
+  }
+  
+  .fIcons{
+    display: flex;
+    color: white;
+  }
+  
+  .fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .copyright{
+    font-weight: 300;
+    font-size: 14px;
+  }
